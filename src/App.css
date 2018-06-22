@@ -3,6 +3,31 @@ p {
   line-height: 1.8;
 }
 
+.list-inline > li {
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.list-inline > li a {
+    background: #000;
+    color: #fff;
+    padding: 3px 5px;
+    border-radius: 4px;
+}
+
+.list-inline > li a:hover {
+  
+}
+
+li.list-inline-item:after {
+    content: " /";
+}
+
+li.list-inline-item:last-child:after {
+    content: "";
+}
+
 .btn-result {
   background-color: #fff;
   color: #f13a51;

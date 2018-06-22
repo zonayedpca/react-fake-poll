@@ -10,8 +10,10 @@ const Footer = () => {
             <div className="footer">
               <ListGroup bsClass="list-inline">
                 <ListGroupItem bsClass="list-inline-item">React</ListGroupItem>
-                <ListGroupItem bsClass="list-inline-item">Item 2</ListGroupItem>
-                <ListGroupItem bsClass="list-inline-item">...</ListGroupItem>
+                <ListGroupItem bsClass="list-inline-item">React Router</ListGroupItem>
+                <ListGroupItem bsClass="list-inline-item">Love</ListGroupItem>
+                <ListGroupItem bsClass="list-inline-item">With</ListGroupItem>
+                <ListGroupItem bsClass="list-inline-item"><a rel="noopener noreferrer" href="https://www.zonayed.me" target="_blank" >Zonayed Ahmed</a></ListGroupItem>
               </ListGroup>;
             </div>
           </Col>
