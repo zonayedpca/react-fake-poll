@@ -1,0 +1,105 @@
+p {
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.btn-result {
+  background-color: #fff;
+  color: #f13a51;
+  font-size: 18px;
+  padding: 15px 40px;
+}
+
+.btn-submit {
+    background: #3F51B5;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 40px;
+    margin-right: 5px;
+}
+
+.btn-autofill {
+    background: #4CAF50;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 40px;
+    margin-right: 5px;
+}
+
+.btn-reset {
+    background: #f13a51;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 40px;
+}
+
+.app {
+  background-color: #f7f8fa;
+}
+
+.jumbotron-area {
+  position: relative;
+  background-color: #f13a51;
+}
+
+.jumbotron-area:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url('https://images.pexels.com/photos/1172214/pexels-photo-1172214.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.1;
+}
+
+.btn {
+  border-radius: 40px;
+  text-shadow: none;
+  border: none;
+  background-image: none;
+}
+
+.intro-text {
+  position: relative;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 100px;
+  z-index: 1;
+}
+
+.intro-text img {
+  height: 80px;
+}
+
+.content-area {
+  margin-top: -100px;
+}
+
+.content {
+  background-color: #fff;
+  padding: 45px 40px;
+  box-shadow: 0 0 25px -15px rgba(0, 0, 0, 1);
+}
+
+.footer-area {
+  padding: 50px 0;
+}
+
+.footer {
+  text-align: center;
+}
+
+.alert {
+    margin-top: 15px;
+}
+
+.alert-success {
+  background: #A5D6A7;
+  background-image: none;
+  border: none;
+  border-radius: 0;
+  color: #fff;
+}
