@@ -149,7 +149,7 @@ class ContentArea extends Component {
                   <FormGroup
                     controlId="oneyear"
                   >
-                    <ControlLabel>What position do you want to see yourselt after one year: </ControlLabel>
+                    <ControlLabel>What position do you want to see yourself after one year: </ControlLabel>
                     <FormControl
                       type="text"
                       value={oneyear}
